@@ -27,9 +27,8 @@ Using a CSV file containing device IP addresses, the script logs in to each syst
     - Routing table or default-gateway
     - Layer 3 interfaces
     - VLANs and interface statuses
+      * Anonymized version without the following values: username | password | secret | aaa | trustpoint | certificate
 - Error logging for authentication failures and unreachable hosts
-
-* *Anonymized version without the following values: username | password | secret | aaa | trustpoint | certificate
 
 ***
 
