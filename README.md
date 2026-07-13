@@ -19,7 +19,8 @@ Using a CSV file containing device IP addresses, the script logs in to each syst
 - Secure credential input using Python’s `getpass()`
 - Automatic creation of output folders based on timestamp
 - Collection of key device data:
-    - Running configuration*   
+    - Running configuration
+    * Anonymized version without the following values: username | password | secret | aaa | trustpoint | certificate
     - IOS version
     - Hardware inventory
     - CDP neighbor table
@@ -27,7 +28,7 @@ Using a CSV file containing device IP addresses, the script logs in to each syst
     - Routing table or default-gateway
     - Layer 3 interfaces
     - VLANs and interface statuses
-      * Anonymized version without the following values: username | password | secret | aaa | trustpoint | certificate
+
 - Error logging for authentication failures and unreachable hosts
 
 ***
