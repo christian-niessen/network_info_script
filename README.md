@@ -20,6 +20,8 @@ Using a CSV file containing device IP addresses, the script logs in to each syst
 - Automatic creation of output folders based on timestamp
 - Collection of key device data:
     - Running configuration
+          Anonymized version:
+          - show running-config brief | exclude username | password | secret | aaa | trustpoint | certificate
     - IOS version
     - Hardware inventory
     - CDP neighbor table
